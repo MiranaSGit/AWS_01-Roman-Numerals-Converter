@@ -90,10 +90,10 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 ## Project Skeleton 
 
 ```
-AWS_01_RomanNumeralsConverter (folder)
+AWS_Roman-Numerals-Converter (folder)
 |
 |----readme.md         # Definition of the project          
-|----rumen_number.yml  # Cloudformation template
+|----roman_number.yml  # Cloudformation template
 |----app.py            # Python Flask Web Application
 |----templates
         |----index.html  # HTML template
