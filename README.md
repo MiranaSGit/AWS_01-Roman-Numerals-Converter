@@ -92,12 +92,12 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 ```
 AWS_01_RomanNumeralsConverter (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)          
-|----rumen_number.yml  # To be delivered by students (Cloudformation template)
-|----app.py            # To be delivered by students (Python Flask Web Application)
+|----readme.md         # Definition of the project          
+|----rumen_number.yml  # Cloudformation template
+|----app.py            # Python Flask Web Application
 |----templates
-        |----index.html  # Given to the students (HTML template)
-        |----result.html # Given to the students (HTML template)
+        |----index.html  # HTML template
+        |----result.html # HTML template
 ```
 
 
