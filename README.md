@@ -1,10 +1,8 @@
-# Project-001 : Roman Numerals Converter Application (Python Flask) deployed on AWS EC2 with Cloudformation and AWS CLI
+#Roman Numerals Converter Application (Python Flask) deployed on AWS EC2 with Cloudformation and AWS CLI
 ## Description
 The Roman Numerals Converter Application aims to convert the given number to the Roman numerals. The application is to be coded in Python and deployed as a web application with Flask on AWS Elastic Compute Cloud (EC2) Instance using AWS Cloudformation and CLI Services. 
 
 ## Problem Statement
-
-![Project_001](Project_001_.png)
 
 - Your company has recently started on a project that aims to be one of the most used unit converters and formulas website. Roman Numerals Converter is the part of the project. So you and your colleagues have started to work on the project.
 
@@ -95,16 +93,13 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 001-roman-numerals-converter (folder)
 |
 |----readme.md         # Given to the students (Definition of the project)          
-|----cfn-template.yml  # To be delivered by students (Cloudformation template)
+|----rumen_number.yml  # To be delivered by students (Cloudformation template)
 |----app.py            # To be delivered by students (Python Flask Web Application)
 |----templates
         |----index.html  # Given to the students (HTML template)
         |----result.html # Given to the students (HTML template)
 ```
 
-## Expected Outcome
-
-![Project 001 Snapshot](project-001-snapshot.png)
 
 ### At the end of the project, following topics are to be covered;
 
@@ -130,56 +125,3 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 
 - Git & Github for Version Control System
 
-### At the end of the project, students will be able to;
-
-- improve coding skills using iterables(dict), operators, for-loop, if statements and functions within Python
-
-- improve web programming skills using HTTP GET/POST methods, template formatting, importing packages within Python Flask Framework
-
-- improve bash scripting skills using `user data` section in Cloudformation to install and setup web application on EC2 Instance
-
-- configure AWS EC2 Instance and Security Groups.
-
-- configure Cloudformation template to use AWS Resources.
-
-- use AWS Cloudformation Service to launch stacks.
-
-- use AWS Cli to launch same stacks.
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-  
-- Step 1: Download or clone project definition from `clarusway-aws-workshop` repo on Github 
-
-- Step 2: Create project folder for local public repo on your pc
-
-- Step 3: Write the Roman Numerals Converter Application in Python
-
-- Step 4: Transform your application into web application using Python Flask framework
-
-- Step 5: Prepare a cloudformation template to deploy your app on EC2 Instance
-
-- Step 6: Push your application into your own public repo on Github
-
-- Step 7: Deploy your application on AWS Cloud using Cloudformation template to showcase your app within your team.
-
-- Step 8: Deploy your application on AWS Cloud using AWS Cli to showcase your app within your team.
-
-## Notes
-
-- Use the template formatting library `jinja` within Flask framework to leverage from given templates.
-
-- Use given html templates to warn user with invalid inputs
-
-- Customize the application by hard-coding your name for the `developer_name` variable within html templates.
-
-## Resources
-
-- [Python Flask Framework](https://flask.palletsprojects.com/en/1.1.x/quickstart/)
-
-- [Python Flask Example](https://realpython.com/flask-by-example-part-1-project-setup/)
-
-- [AWS Cloudformation User Guide](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)
-
-- [AWS Cli User Guide](https://docs.aws.amazon.com/cli/latest/)
