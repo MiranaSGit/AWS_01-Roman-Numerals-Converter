@@ -90,7 +90,7 @@ Ten         Warning with "Not Valid! Please enter a number between 1 and 3999, i
 ## Project Skeleton 
 
 ```
-001-roman-numerals-converter (folder)
+AWS_01_RomanNumeralsConverter (folder)
 |
 |----readme.md         # Given to the students (Definition of the project)          
 |----rumen_number.yml  # To be delivered by students (Cloudformation template)
